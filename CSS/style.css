@@ -37,7 +37,8 @@ body{
 .info-box{
   display: flex;
   background-color: rgba(0, 0, 0, 0.7);
-  max-width: 900px;
+  max-width: 100%;
+  min-width: 200px;
   height: 300px;
   margin: auto;
   margin-top: 5rem;
@@ -45,6 +46,11 @@ body{
   text-align: center;
   align-items: center;
   border-radius: 50px;
+}
+
+.info-box-container{
+  margin: auto;
+  max-width: 900px;
 }
 
 .info-box h1, p{
@@ -71,8 +77,13 @@ body{
   top: 55px;
 }
 
-.links{
+.links-container{
   max-width: 900px;
+  margin: auto;
+}
+
+.links{
+  max-width: 100%;
   margin: auto;
 }
 
@@ -115,4 +126,19 @@ footer{
 
 footer a{
   color: rgb(245, 245, 245);
+}
+
+@media screen and (max-width: 900px) {
+  .links{
+    width: 90%;
+  }
+  .info-box{
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .links div{
+    font-size: 1.7rem;
+  }
 }
