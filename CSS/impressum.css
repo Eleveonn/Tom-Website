@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Quicksand, semi-bold, sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(../Pictures/BG.png)
+}
+
+.nav-bar{
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+}
+
+.nav-bar-links{
+  color: rgb(245, 245, 245);
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+
+.nav-bar-links:hover{
+  color: rgba(245, 245, 245, 0.8);
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+
+.nav-bar-links:active{
+  color: rgba(245, 245, 245, 0.6);
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+
+.info-box{
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.7);
+  max-width: 900px;
+  height: 250px;
+  margin: auto;
+  margin-top: 5rem;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.info-box h1{
+  color: rgb(245, 245, 245);
+  margin-top: 6rem;
+  font-size: 2.5rem;
+}
+
+.info-box p{
+  color: rgb(245, 245, 245);
+  margin-top: 1rem;
+  font-size: 1.4rem;
+}
+
+.logo{
+  width: 9rem;
+  height: 9rem;
+  object-fit: contain;
+  border-radius: 100px;
+  position: absolute;
+  top: 55px;
+}
+
+.info{
+  color: rgb(245, 245, 245);
+  background-color: rgba(0, 0, 0, 0.7);
+  max-width: 900px;
+  height: 450px;
+  margin: auto;
+  margin-top: 1rem;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 50px;
+  line-height: 2rem;
+}
+
+.info span{
+  display: block;
+  margin-bottom: -15px;
+}
