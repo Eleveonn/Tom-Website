@@ -5,7 +5,8 @@
 }
 
 body{
-  background-image: url(../Pictures/BG.png)
+  background-image: url(../Pictures/BG.png);
+  width: 100vw;
 }
 
 .nav-bar{
