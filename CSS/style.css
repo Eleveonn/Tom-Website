@@ -7,6 +7,8 @@
 body{
   background-image: url(../Pictures/BG.png);
   width: 100vw;
+  height: 100vw;
+  overflow-x: hidden;
 }
 
 .nav-bar{
